@@ -1,0 +1,7 @@
+Q. Explain how I would perform a frequency analysis of a website if I had to do it. 
+A. If I had to perform a frequency analysis of a website, then I would use the program to create an array of all the words listed in the website,
+and use this array to find the specified word that is requested. This is very commmon, as in most websites you can use the control + f shortcut to open a
+promp that allows you to search through every word and element in a website.
+
+Q. What was my challenges in performing the lab (from design to the implementation phases)?
+A. I again did not have many problems, but it did take me a while to figure out the case-specific search it was looking for, 
