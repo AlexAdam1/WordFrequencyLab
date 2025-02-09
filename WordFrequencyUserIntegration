@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 public class Main {
-    
+
     public static void main(String[] args) {
         String[] WordList = new String[]{"hey", "Hi", "Mark", "hi", "mark"};
         for (int i = 0; i < WordList.length; i++) {
@@ -15,7 +15,6 @@ public class Main {
         int wordListLength = 0;
         int wordList;
         String wordKey = "";
-        String end = "";
         System.out.println("How many words would you like to add? Please enter a number");
         wordList = keyboard.nextInt();
         String[] thatArray = new String[wordList];
@@ -27,13 +26,12 @@ public class Main {
         do {
             System.out.println("What would you like to find the frequency of? Please enter a word, and done if you are done");
             wordKey = keyboard.next();
-            end = wordKey;
-            if (!end.equals("done")){
+            if (!wordKey.equals("done")){
                 System.out.println(getWordFrequency(thatArray, wordList, wordKey));
             }
-        }while (!end.equals("done"));
+        }while (!wordKey.equals("done"));
     }
-    
+
         public static int getWordFrequency (String[]wordsList,int listSize, String currWord){
             int count = 0;
             for (int i = 0; i < listSize; i++) {
