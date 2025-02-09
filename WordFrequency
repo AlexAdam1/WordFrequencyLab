@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
         String [] WordList = new String[]{"hey", "Hi", "Mark", "hi", "mark"};
         for (int i = 0; i < WordList.length; i++) {
@@ -11,9 +12,9 @@ public static int getWordFrequency(String [] wordsList, int listSize, String cur
     for (int i = 0; i < listSize; i++) {
         wordsList[i].toLowerCase();
             if(wordsList[i].toLowerCase().equals(currWord.toLowerCase()) || wordsList[i].equals(currWord)) {
-            count++;
+                count++;
             }
         }
-return count;
+        return count;
     }
 }
