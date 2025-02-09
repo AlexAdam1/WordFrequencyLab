@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+        String [] WordList = new String[]{"hey", "Hi", "Mark", "hi", "mark"};
+        for (int i = 0; i < WordList.length; i++) {
+            System.out.println(WordList[i] + ": "+ getWordFrequency(WordList, 5 , WordList[i]));
+        }
+    }
+
+public static int getWordFrequency(String [] wordsList, int listSize, String currWord) {
+    int count = 0;
+    for (int i = 0; i < listSize; i++) {
+    wordsList[i].toLowerCase();
+    if(wordsList[i].toLowerCase().equals(currWord.toLowerCase()) || wordsList[i].equals(currWord)) {
+    count++;
+    }
+}
+return count;
+  }
+}
