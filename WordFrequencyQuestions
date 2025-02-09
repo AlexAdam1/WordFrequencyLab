@@ -4,4 +4,5 @@ and use this array to find the specified word that is requested. This is very co
 promp that allows you to search through every word and element in a website.
 
 Q. What was my challenges in performing the lab (from design to the implementation phases)?
-A. I again did not have many problems, but it did take me a while to figure out the case-specific search it was looking for, 
+A. I again did not have many problems, but it did take me a while to figure out the case-specific search it was looking for,
+and the syntax of string comparison also threw me off a little bit.
